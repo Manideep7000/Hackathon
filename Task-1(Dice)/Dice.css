@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 31, 74);
+}
+
+.canvas-field{
+   
+    border-width: 5px;
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 10px cyan;
+
+}
+#diceCanvas{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: aqua;
+    border-width: 4px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    height: 10vh;
+    width: 70vh;
+}
+.title>h1{
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    color: aqua;
+}
